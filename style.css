@@ -1,0 +1,93 @@
+body {
+    font-family: 'Roboto Mono',monospace;
+    min-height: 400px;
+    background-image: url('https://calculeseusite.com.br/wp-content/uploads/2020/09/calculeseusite-768x768.png');
+    background-color: #000000;
+    background-size: 20vh;
+    background-position: center unset;
+    background-repeat: no-repeat;
+  }
+  
+  .container {
+    text-align: center;
+    padding: 20px;
+    height: 60vh;
+  
+  }
+  
+  .page-title {
+    color:#ec5d5d;
+    margin: 0 0 5px;
+  }
+  
+  .page-subtitle {
+    color:#ffffff;
+    margin-top: 5px;
+  }
+
+  .page-logo {
+    width: 200px;
+    background-color: #ec5d5d;
+  }
+
+  .info {
+    color: #ffffff;
+    justify-content: center;
+    position: center;
+    padding-bottom: 50px;
+    margin: 30px;
+
+  }
+
+  .formulario{
+    display: flex;
+    position: center;
+    flex-direction: column;
+    width: 300px;
+    padding-bottom: 10px;
+    justify-content: center;
+    color: #ffffff;
+    margin: 0 auto;
+
+  }
+
+  .input {
+    margin-bottom: 18px;
+    padding: 10px;
+    border: none;
+    border-radius: 50px;
+    text-align: center;
+    box-shadow: 5px 5px 10px #00000050;
+  }
+  
+  .botao {
+    margin-bottom: 18px;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 5px 5px 10px #00000050;
+    transition: .5s;
+  }
+  
+  .botao:hover {
+    background-color: #263238;
+    color: #f2f2f2;
+    transition: .1s;
+    cursor: pointer;
+  }
+  
+  .alura-logo {
+    width: 40px;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+  }
+
+  .resultado {
+    color: #ffffff;
+    background-color: #ec5d5d;
+    padding: 10px;
+    text-align: center;
+    margin: 0 30px;
+    border-radius: 0 0 10px 10px;
+  }
