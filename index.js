@@ -19,22 +19,3 @@ botao.addEventListener('click', () => {
     resultado.innerHTML = "<div class='resultado'>Sua nota foi " + notaFixada + ". Você está reprovado.</div>"
   }
 })
-
-
-/*var notaPrimeiroBimestre = 9.4595
-var notaSegundoBimestre = 5.9861
-var notaTerceiroBimestre = 4.1254
-var notaQuartoBimestre = 2.487
-var notaFinal = (notaPrimeiroBimestre + notaSegundoBimestre + notaTerceiroBimestre + notaQuartoBimestre) / 4
-
-var notaFixada = notaFinal.toFixed(1) 
-
-console.log(notaFixada)
-
-if (notaFinal >= 6) {
-    console.log ("Aluno aprovado! Parabéns!")
-} else {
-    console.log ("Reprovado! Tente de novo ano que vem.")
-}
-
- o toFixed é usado quando o número tem muitas casas decimais apos a virgula e nele fixamos ate quantas queremos usar no calculo, nesse caso coloquei 1 */
